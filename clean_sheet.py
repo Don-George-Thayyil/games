@@ -14,7 +14,6 @@ def clean_sheet(*kwargs):
                 length = len(item[j])
             i += 1
             j += 1
-        print("item = ",item)
         for elements in item:
             if len(elements) < length+1:
                 add = (length+1) - len(elements) 
